@@ -9,38 +9,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-        useMaterial3: true,
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    // Widget titleSection sesuai instruksi
     Widget titleSection = Container(
       padding: const EdgeInsets.all(32.0), // Padding di sepanjang tepi
       child: Row(
@@ -72,6 +40,99 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
 
+    // Menambahkan buttonSection
+    Color color = Theme.of(context).primaryColor;
+
+    Widget buttonSection = Row(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: [
+        _buildButtonColumn(color, Icons.call, 'CALL'),
+        _buildButtonColumn(color, Icons.near_me, 'ROUTE'),
+        _buildButtonColumn(color, Icons.share, 'SHARE'),
+      ],
+    );
+
+    // Menambahkan textSection
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(32),
+      child: const Text(
+        'Terletak di Bumi Bung Karno'
+         'Jawa Timur dengan akses yang mudah dijangkau,' 
+         'Kampung Coklat adalah produsen olahan coklat asli nusantara dan destinasi wisata yang mengedepankan edukasi mengenai proses pembuatan coklat.\n'
+         'Nama: Angga Ahmad\n'
+         'NIM:2341760014'
+         ,
+        softWrap: true,
+      ),
+    );
+
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        useMaterial3: true,
+      ),
+      home: MyHomePage(
+        title: 'Flutter Demo Home Page',
+        titleSection: Column(
+          children: [
+            titleSection,
+            buttonSection, // Menambahkan buttonSection di bawah titleSection
+            textSection, // Menambahkan textSection di bawah buttonSection
+          ],
+        ),
+      ),
+    );
+  }
+
+  // Method _buildButtonColumn
+  Column _buildButtonColumn(Color color, IconData icon, String label) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Icon(icon, color: color),
+        Container(
+          margin: const EdgeInsets.only(top: 8),
+          child: Text(
+            label,
+            style: TextStyle(
+              fontSize: 12,
+              fontWeight: FontWeight.w400,
+              color: color,
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({
+    super.key,
+    required this.title,
+    required this.titleSection,
+  });
+
+  final String title;
+  final Widget titleSection;
+
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  int _counter = 0;
+
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
@@ -79,7 +140,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Column(
         children: [
-          titleSection, // Mengganti body text dengan titleSection
+          widget.titleSection, // Mengganti body text dengan titleSection
           Expanded(
             child: Center(
               child: Column(
