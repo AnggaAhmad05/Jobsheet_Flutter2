@@ -57,11 +57,10 @@ class MyApp extends StatelessWidget {
       padding: const EdgeInsets.all(32),
       child: const Text(
         'Terletak di Bumi Bung Karno'
-         'Jawa Timur dengan akses yang mudah dijangkau,' 
-         'Kampung Coklat adalah produsen olahan coklat asli nusantara dan destinasi wisata yang mengedepankan edukasi mengenai proses pembuatan coklat.\n'
-         'Nama: Angga Ahmad\n'
-         'NIM:2341760014'
-         ,
+        'Jawa Timur dengan akses yang mudah dijangkau,'
+        'Kampung Coklat adalah produsen olahan coklat asli nusantara dan destinasi wisata yang mengedepankan edukasi mengenai proses pembuatan coklat.\n'
+        'Nama: Angga Ahmad\n'
+        'NIM:2341760014',
         softWrap: true,
       ),
     );
@@ -74,8 +73,14 @@ class MyApp extends StatelessWidget {
       ),
       home: MyHomePage(
         title: 'Flutter Demo Home Page',
-        titleSection: Column(
+        titleSection: ListView(
           children: [
+            Image.asset(
+              'images/KC.jpeg',
+              width: 600,
+              height: 240,
+              fit: BoxFit.cover,
+            ),
             titleSection,
             buttonSection, // Menambahkan buttonSection di bawah titleSection
             textSection, // Menambahkan textSection di bawah buttonSection
@@ -138,25 +143,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Column(
-        children: [
-          widget.titleSection, // Mengganti body text dengan titleSection
-          Expanded(
-            child: Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  const Text('You have pushed the button this many times:'),
-                  Text(
-                    '$_counter',
-                    style: Theme.of(context).textTheme.headlineMedium,
-                  ),
-                ],
-              ),
-            ),
-          ),
-        ],
-      ),
+      body: widget.titleSection, // Menggunakan ListView sebagai body
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
