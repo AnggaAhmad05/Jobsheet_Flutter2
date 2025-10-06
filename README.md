@@ -149,4 +149,11 @@ menjalan kan perintah Flutter pub get pada terminal
 
 <img width="696" height="311" alt="image" src="https://github.com/user-attachments/assets/dff475bb-9a62-4866-b75f-700af0586ba5" />
 
+<img width="1535" height="999" alt="image" src="https://github.com/user-attachments/assets/4cc71c51-a1e0-4c01-8743-11dc3142385b" />
+
+
+import go_router
+
+<img width="1545" height="1017" alt="image" src="https://github.com/user-attachments/assets/171571de-28b5-406b-bb19-984f003c7796" />
+
 
