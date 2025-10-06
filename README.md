@@ -1,4 +1,4 @@
-Praktikum1
+<img width="758" height="231" alt="image" src="https://github.com/user-attachments/assets/b47a4153-dc64-4505-86d1-3eea0022b525" />Praktikum1
 
 1 Langkah 1: Membuat project baru
 
@@ -87,4 +87,34 @@ Praktikum 5:
 
 
 7. Langkah 7: Menambahkan aksi pada ListView
+
+   <img width="1639" height="1013" alt="image" src="https://github.com/user-attachments/assets/cd6c4d80-515e-4f9a-990b-5cf71d31811c" />
+
+
+Tugas Praktikum
+
+1. Untuk melakukan pengiriman data ke halaman berikutnya, cukup menambahkan informasi arguments pada penggunaan Navigator.
+   
+<img width="758" height="231" alt="image" src="https://github.com/user-attachments/assets/759e8636-9a38-44ea-9340-52901ca781f4" />
+
+
+2. Pembacaan nilai yang dikirimkan pada halaman sebelumnya dapat dilakukan menggunakan ModalRoute. Tambahkan kode berikut pada blok fungsi build dalam halaman ItemPage
+
+   <img width="1606" height="1017" alt="image" src="https://github.com/user-attachments/assets/af4a142a-d9bd-41e0-8cc1-fd8adecd5bd4" />
+
+
+
+3.    
+
+<img width="1610" height="1010" alt="image" src="https://github.com/user-attachments/assets/8403920a-e09c-4394-aec7-7f1c2be6915c" />
+
+<img width="1602" height="992" alt="image" src="https://github.com/user-attachments/assets/76efcd96-f81b-4f82-ab5a-beda11874d8a" />
+
+4. Menambahkan hero widget untuk transisi animasi saat berpindah halaman
+   
+   <img width="1632" height="1000" alt="image" src="https://github.com/user-attachments/assets/70f19dad-5a2b-49e5-9e8e-18a1b34b36ba" />
+
+   <img width="1596" height="1000" alt="image" src="https://github.com/user-attachments/assets/9bdfe5b5-8b99-49aa-9ac1-af1046e20cfb" />
+
+5. Sesuaikan dan modifikasi tampilan sehingga menjadi aplikasi yang menarik. Selain itu, pecah widget menjadi kode yang lebih kecil. Tambahkan Nama dan NIM di footer aplikasi belanja Anda.   
 
