@@ -123,5 +123,19 @@ Tugas Praktikum
 
    <img width="1596" height="1000" alt="image" src="https://github.com/user-attachments/assets/9bdfe5b5-8b99-49aa-9ac1-af1046e20cfb" />
 
+modifikasi tampilan 
+
+<img width="1623" height="1013" alt="image" src="https://github.com/user-attachments/assets/b1ea7275-2222-410f-a0e7-445faa94938a" />
+
+
 5. Sesuaikan dan modifikasi tampilan sehingga menjadi aplikasi yang menarik. Selain itu, pecah widget menjadi kode yang lebih kecil. Tambahkan Nama dan NIM di footer aplikasi belanja Anda.   
+
+<img width="1071" height="703" alt="image" src="https://github.com/user-attachments/assets/855da870-283e-47db-ab76-ad52f645b1e9" />
+
+<img width="847" height="638" alt="image" src="https://github.com/user-attachments/assets/2b360c4a-5ea1-4557-922d-58f9d46cb1ec" />
+
+<img width="334" height="373" alt="image" src="https://github.com/user-attachments/assets/2731ff71-f04d-4363-9f4c-89c68d1b47ee" />
+
+<img width="1535" height="1011" alt="image" src="https://github.com/user-attachments/assets/c1b9a89b-add2-4ec5-9fda-fddd432a128b" />
+
 
