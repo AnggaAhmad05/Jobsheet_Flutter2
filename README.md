@@ -40,6 +40,17 @@ Praktikum 3
    <img width="1642" height="1000" alt="image" src="https://github.com/user-attachments/assets/916c13fb-0270-47b5-923a-8aecd7f49204" />
 
 
- 
+ Praktikum 4
+
+ 1. Langkah 1: Siapkan aset gambar
+
+    <img width="1592" height="998" alt="image" src="https://github.com/user-attachments/assets/28daec40-0f99-469e-8175-358e2a980064" />
+    
+2. Langkah 2: Tambahkan gambar ke body
+
+   <img width="1624" height="985" alt="image" src="https://github.com/user-attachments/assets/0275f0fa-991a-4050-9028-61ccaab41d06" />
+
+    
+
 
 
