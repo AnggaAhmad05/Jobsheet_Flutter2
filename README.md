@@ -1,7 +1,5 @@
 Praktikum1
 
-<img width="758" height="231" alt="image" src="https://github.com/user-attachments/assets/b47a4153-dc64-4505-86d1-3eea0022b525" />
-
 1 Langkah 1: Membuat project baru
 
 <img width="1918" height="1033" alt="image" src="https://github.com/user-attachments/assets/a80c5084-5a74-4322-a15c-60c9581748a4" />
