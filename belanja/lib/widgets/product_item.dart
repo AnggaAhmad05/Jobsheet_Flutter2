@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:belanja/models/item.dart';
+import 'package:go_router/go_router.dart';
 
 class ProductItem extends StatelessWidget {
   final Item item;
@@ -10,11 +11,7 @@ class ProductItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Navigator.pushNamed(
-          context,
-          '/item',
-          arguments: item, // Mengirim data item sebagai arguments
-        );
+        context.go('/item', extra: item); // Navigasi menggunakan go_router
       },
       child: Card(
         elevation: 4,
