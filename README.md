@@ -1,3 +1,10 @@
+Nama: Angga Ahmad
+
+NIM: 2341760014
+
+Kelas: SIB-3F
+
+
 Praktikum1
 
 1 Langkah 1: Membuat project baru
