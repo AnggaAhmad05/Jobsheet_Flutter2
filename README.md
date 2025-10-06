@@ -51,6 +51,40 @@ Praktikum 3
    <img width="1624" height="985" alt="image" src="https://github.com/user-attachments/assets/0275f0fa-991a-4050-9028-61ccaab41d06" />
 
     
+Praktikum 5:
+
+1. Langkah 1: Siapkan project baru
+
+   <img width="1725" height="931" alt="image" src="https://github.com/user-attachments/assets/f0cb7f44-85a6-40e0-86b3-4c5d8b721fde" />
+
+   <img width="366" height="272" alt="image" src="https://github.com/user-attachments/assets/9f658853-15f8-4270-9589-0aabd3208884" />
+
+2. Langkah 2: Mendefinisikan Route
+
+   <img width="510" height="375" alt="image" src="https://github.com/user-attachments/assets/00acb72b-e3f9-465a-8bab-964e0aa9f2de" />
+
+   <img width="524" height="465" alt="image" src="https://github.com/user-attachments/assets/5f4401e1-c739-498f-814a-b5844b0b4c3b" />
 
 
+3. Langkah 3: Lengkapi Kode di main.dart
+
+<img width="717" height="483" alt="image" src="https://github.com/user-attachments/assets/ff675ba1-75e4-4356-ada6-16cfd28c3c69" />
+
+
+4. Langkah 4: Membuat data model
+
+<img width="715" height="453" alt="image" src="https://github.com/user-attachments/assets/63f3b2a8-e1ae-4bcd-88ab-7c45641ac0dc" />
+   
+5. Langkah 5: Lengkapi kode di class HomePage
+
+   <img width="709" height="598" alt="image" src="https://github.com/user-attachments/assets/18d978e4-6503-403a-be9c-35416e6f477e" />
+
+6. Langkah 6: Membuat ListView dan itemBuilder
+
+<img width="714" height="702" alt="image" src="https://github.com/user-attachments/assets/d9d420ca-9a60-425d-930a-81596992d1f0" />
+
+<img width="1689" height="1027" alt="image" src="https://github.com/user-attachments/assets/9ff266d1-64e1-4608-8d37-148bd81f03a1" />
+
+
+7. Langkah 7: Menambahkan aksi pada ListView
 
