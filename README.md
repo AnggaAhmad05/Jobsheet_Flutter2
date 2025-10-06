@@ -138,4 +138,15 @@ modifikasi tampilan
 
 <img width="1535" height="1011" alt="image" src="https://github.com/user-attachments/assets/c1b9a89b-add2-4ec5-9fda-fddd432a128b" />
 
+6. Cobalah modifikasi menggunakan plugin go_router
+
+ dengan menambahkan go_router di dependencies pada file pubspec.yaml  
+
+<img width="494" height="235" alt="image" src="https://github.com/user-attachments/assets/de5f6fbc-7af5-451c-abdc-11f62081b792" />
+
+
+menjalan kan perintah Flutter pub get pada terminal
+
+<img width="696" height="311" alt="image" src="https://github.com/user-attachments/assets/dff475bb-9a62-4866-b75f-700af0586ba5" />
+
 
